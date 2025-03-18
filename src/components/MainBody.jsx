@@ -59,7 +59,7 @@ function MainBody() {
                         <img 
                             src={event.image} 
                             alt={`Event ${event.id}`} 
-                            className="w-dvw mx-auto min-h-dvh max-h-dvh object-cover cursor-pointer"
+                            className="w-full h-full object-cover cursor-pointer"
                             cover
                         />
                     </SwiperSlide>
