@@ -8,7 +8,7 @@ import EventDetails from './components/EventDetails.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Router basename="/mandala-booking">
+    <Router basename="/mandala-booking/">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
