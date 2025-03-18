@@ -42,8 +42,7 @@ function MainBody() {
     };
 
     return (
-        <div className="w-dvw min-h-svh max-h-svh">
-
+        <div className="w-dvw min-h-dvh max-h-dvh">
             <Swiper
                 modules={[Autoplay]}
                 spaceBetween={10}
