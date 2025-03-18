@@ -220,7 +220,7 @@ const EventDetails = () => {
     }
 
     return (
-        <div className="eventDets py-4">
+        <div className="eventDets py-4 mt-25">
             <div className="container w-11/12 mx-auto">
                 <Link to="/"><img src={back} alt='Back' width='50' /></Link>
                 <h3 className="mb-5 mt-5 text-xl font-semibold">{event.title}</h3>

@@ -5,13 +5,14 @@ import './index.css';
 import Header from './components/Header.jsx';
 import Home from './components/Home.jsx';
 import EventDetails from './components/EventDetails.jsx';
+import MainBody from './components/MainBody.Jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Router basename="/mandala-booking/">
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<MainBody />} />
         <Route path="/event/:id" element={<EventDetails />} />
       </Routes>
     </Router>
