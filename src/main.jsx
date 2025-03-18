@@ -5,7 +5,7 @@ import './index.css';
 import Header from './components/Header.jsx';
 import Home from './components/Home.jsx';
 import EventDetails from './components/EventDetails.jsx';
-import MainBody from './components/MainBody.Jsx';
+import MainBody from './components/MainBody.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
