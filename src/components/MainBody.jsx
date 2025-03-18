@@ -42,7 +42,7 @@ function MainBody() {
     };
 
     return (
-        <div className="w-dvw min-h-dvh max-h-dvh">
+        <div className="w-vw min-h-vh max-h-vh">
             <Swiper
                 modules={[Autoplay]}
                 spaceBetween={10}
@@ -58,7 +58,7 @@ function MainBody() {
                         <img 
                             src={event.image} 
                             alt={`Event ${event.id}`} 
-                            className="w-full h-full object-cover cursor-pointer"
+                            className="w-vw mx-auto min-h-vh max-h-vh object-cover cursor-pointer"
                             cover
                         />
                     </SwiperSlide>
