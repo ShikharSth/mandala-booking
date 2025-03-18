@@ -14,7 +14,7 @@ import bg_11 from '../assets/bg/bg-11.jpg';
 import bg_12 from '../assets/bg/bg-12.jpg';
 import bg_13 from '../assets/bg/bg-13.jpg';
 
-import kandata1 from '../assets/mandala-images/kandata/Utervision-kandata1.jpg'
+import kandata1 from '../assets/mandala-images/kandata/Utervision-Kandata1.jpg'
 import kandata2 from '../assets/mandala-images/kandata/Utervision-kandata2.jpg'
 import kandata3 from '../assets/mandala-images/kandata/Utervision-kandata3.jpg'
 import kandata4 from '../assets/mandala-images/kandata/Utervision-kandata4.jpg'
